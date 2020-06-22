@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import RealTestNet from "./RealTestNet";
+import RealTestNet from "../RealTestNet";
 
 class Ledger extends Component {
   render() {

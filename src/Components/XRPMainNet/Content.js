@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AccountInfo from "./AccountInfo";
 import AccountBalance from "./AccountBalance";
-import RealTestNet from "./RealTestNet";
+import RealTestNet from "../RealTestNet";
 
 class test extends Component {
   render() {

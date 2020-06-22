@@ -1,7 +1,7 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Test from "./Components/Content";
+import Test from "./Components/XRPMainNet/Content";
 import "./index.css";
 
 function App() {

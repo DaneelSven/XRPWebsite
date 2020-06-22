@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
 import axios from "axios";
 import UNL from "./UNL";
 import Validators from "./Validators";
-import RealTestNet from "./RealTestNet";
+import RealTestNet from "../RealTestNet";
 
 class Validator extends Component {
   state = { UNL: [], AllValidators: [], RippleValidators: [] };

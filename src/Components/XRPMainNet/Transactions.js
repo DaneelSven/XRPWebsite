@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap";
 import Axios from "axios";
 import Transaction from "./Transaction";
-import RealTestNet from "./RealTestNet";
+import RealTestNet from "../RealTestNet";
 
 class Transactions extends Component {
   state = { Transactions: [], TransactionAccount: "" };

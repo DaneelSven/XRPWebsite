@@ -69,11 +69,11 @@ class Validators extends Component {
     return (
       <div className=" BorderValidator">
         <div className="row">
-          <div className="textAlign col-md-6 ">
+          <div className="textAlign col-md-8 ">
             Domain Name: {domain ? domain : "There is no public UNL given"}
           </div>
 
-          <div className="col-md-8">
+          <div className="col-md-4">
             <Button
               className="ShowMore rounded-pill"
               onClick={this.toggleFullView}
